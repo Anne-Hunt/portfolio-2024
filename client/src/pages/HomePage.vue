@@ -1,14 +1,16 @@
 <script setup>
-import { AppState } from '../AppState.js';
+import { computed, ref } from 'vue';
 import Navbar from '../components/Navbar.vue';
+import { loadState } from '../utils/Store.js';
 
-const theme = computed(()=>AppState.account)
-function setMix(){
-  if(theme){
+const theme = ref(loadState('theme') || 'light')
+
+const mixed = computed(()=>{
+  if(theme.value == 'light'){
     return `screen`;
   }
-  else return `multiply`
-}
+  else return `difference`
+})
 
 </script>
 
@@ -338,9 +340,9 @@ h1, h2, h3, h4, h5{
 
 .bdy{
   height: auto;
-  mix-blend-mode: var(--bs-view);
+  mix-blend-mode: screen;
   background-color: var(--bs-page);
-  color: var(--bs-cut);
+  color: black;
   font-size: 10vw; /* Responsive font size */
   font-weight: bold;
   text-shadow: black;
@@ -352,9 +354,9 @@ h1, h2, h3, h4, h5{
 }
 
 .screen{
-  mix-blend-mode: var(--bs-view);
+  mix-blend-mode: screen;
   background-color: var(--bs-page);
-  color: var(--bs-cut);
+  color: black;
   font-weight: bold;
   text-shadow: black;
 }
