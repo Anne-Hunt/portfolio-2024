@@ -30,28 +30,29 @@ const mixed = computed(()=>{
         </div>
       </section>
       <div class="p-5 jello-horizontal">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade display border">
+        <div id="screencarousel" class="carousel slide carousel-fade display border">
           <div class="carousel-inner">
+            <button class="carousel-control-next" type="button" data-bs-target="#screencarousel" data-bs-slide="next">
             <div class="carousel-item active">
               <img src="../assets/img/display.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="../assets/img/csharp.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="../assets/img/vue.png" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="../assets/img/mongo.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/postman.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/minecraft.png" class="d-block w-100" alt="...">
+            </div>
+          </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
       <!-- FEATURED PROJECT -->
