@@ -59,6 +59,46 @@
 </template>
 
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
+h1, h2, h3, h4, h5{
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
+.bg{
+  background-color: black;
+  background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
+  height: auto;
+}
+
+.bdy{
+  height: auto;
+  mix-blend-mode: screen;
+  background-color: var(--bs-page);
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  text-shadow: black;
+  font-family: Asap, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-page{
+  background-color: var(--bs-page);
+}
+
+.screen{
+  mix-blend-mode: screen;
+  background-color: var(--bs-page);
+  color: black;
+  font-weight: bold;
+  text-shadow: black;
+}
+
+.profile{
+  height: 30dvh;
+  width: 30dvh;
+  object-fit: cover;
+  object-position: center;
+}
 </style>
