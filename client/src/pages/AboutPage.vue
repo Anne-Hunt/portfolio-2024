@@ -3,6 +3,9 @@
 </script>
 
 <template>
+    <div class="keeb p-5">
+        <Keyboard/>
+    </div>
   <div class="about">
     <h1>This is the about page</h1>
   </div>
@@ -89,5 +92,8 @@
 </template>
 
 <style scoped lang="scss">
-
+.keeb{
+    width: 450px;
+    height: 150px;
+}
 </style>

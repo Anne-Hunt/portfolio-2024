@@ -29,32 +29,118 @@ const mixed = computed(()=>{
             <h2 class="text-end text-focus-in fourth">mystery</h2>
         </div>
       </section>
-      <div class="p-5 jello-horizontal">
-        <div id="screencarousel" class="carousel slide carousel-fade display border">
-          <div class="carousel-inner">
-            <button class="carousel-control-next" type="button" data-bs-target="#screencarousel" data-bs-slide="next">
-            <div class="carousel-item active">
-              <img src="../assets/img/display.png" class="d-block w-100" alt="...">
+      <section class="row bg-page">
+        <div class="col-4">
+          <div class="p-5 jello-horizontal">
+            <div id="screencarousel" class="carousel slide carousel-fade display border">
+              <div class="carousel-inner">
+                <div class="carousel-item active flicker-1">
+                  <img src="../assets/img/display.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item flicker-1">
+                  <img src="../assets/img/csharp.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item flicker-1">
+                  <img src="../assets/img/vue.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item flicker-1">
+                  <img src="../assets/img/mongo.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item flicker-1">
+                  <img src="../assets/img/postman.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item flicker-1">
+                  <img src="../assets/img/minecraft.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="../assets/img/csharp.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/img/vue.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/img/mongo.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/img/postman.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/img/minecraft.png" class="d-block w-100" alt="...">
-            </div>
-          </button>
           </div>
         </div>
-      </div>
+
+        <!--KEYBOARD-->
+        <div class="row bg-dark rounded p-1">
+          <!--NUMBER KEYS-->
+          <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- TOP LETTERS -->
+          <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- MID LETTERS -->
+          <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- BOTTOM LETTERS -->
+          <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <!-- SPACE ROW -->
+          <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <i class="mdi mdi-mouse fs-1" type="button" data-bs-target="#screencarousel" data-bs-slide="next"></i>
+      </section>
       <!-- FEATURED PROJECT -->
       <section class="row bg-none justify-content-center mx-0">
         <div class="screen p-3"><h3 class="text-center">
@@ -299,14 +385,15 @@ h1, h2, h3, h4, h5{
 }
 
 .display{
-  width: 30dvh;
+  width: 50dvh;
   height: auto;
 	-webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
   animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-.roll{
-  -webkit-animation: roll-in-top 1s ease-out both;
-  animation: roll-in-top 1s ease-out both;
+
+.flicker-1 {
+	-webkit-animation: flicker-1 2s linear 1s both;
+  animation: flicker-1 2s linear 1s both;
 }
 
 .jello-horizontal {
@@ -314,18 +401,67 @@ h1, h2, h3, h4, h5{
   animation: jello-horizontal 0.9s both;
 }
 
-/* ----------------------------------------------
- * Generated by Animista on 2024-6-1 20:6:32
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
+ @-webkit-keyframes flicker-1 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  41.99% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  43.01% {
+    opacity: 1;
+  }
+  47.99% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  49.01% {
+    opacity: 1;
+  }
+}
+@keyframes flicker-1 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  41.99% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  43.01% {
+    opacity: 1;
+  }
+  47.99% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  49.01% {
+    opacity: 1;
+  }
+}
 
-/**
- * ----------------------------------------
- * animation jello-horizontal
- * ----------------------------------------
- */
  @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
@@ -387,59 +523,7 @@ h1, h2, h3, h4, h5{
   }
 }
 
-
-
-/* ----------------------------------------------
- * Generated by Animista on 2024-6-1 19:56:55
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation roll-in-left
- * ----------------------------------------
- */
- @-webkit-keyframes roll-in-top {
-  0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-top {
-  0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-
-
-/* ----------------------------------------------
- * Generated by Animista on 2024-6-1 19:34:13
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation shadow-pop-tl
- * ----------------------------------------
- */
- @-webkit-keyframes shadow-pop-tl {
+@-webkit-keyframes shadow-pop-tl {
   0% {
     -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
             box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
@@ -467,7 +551,6 @@ h1, h2, h3, h4, h5{
             transform: translateX(8px) translateY(8px);
   }
 }
-
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -574,4 +657,18 @@ h1, h2, h3, h4, h5{
   object-fit: cover;
   object-position: center;
 }
+
+.ukey1{
+  min-width: 6%;
+}
+
+.ukey15{
+  min-width: 10%;
+}
+
+.ukey2{
+  min-width: 13.32%;
+}
+
+
 </style>
