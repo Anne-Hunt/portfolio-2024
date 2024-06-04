@@ -34,6 +34,16 @@ function toggleTheme() {
             <strong>ABOUT</strong>
           </router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Resume' }" class="btn text-light lighten-30 selectable text-uppercase">
+            <strong>RESUME</strong>
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{ name: 'Work' }" class="btn text-light lighten-30 selectable text-uppercase">
+            <strong>WORK</strong>
+          </router-link>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <div>
@@ -42,7 +52,6 @@ function toggleTheme() {
           <i class="mdi" :class="theme == 'light' ? 'mdi-lightbulb-on' : 'mdi-lightbulb-outline'"></i>
         </button>
       </div>
-      <Login />
     </div>
   </nav>
 </template>
