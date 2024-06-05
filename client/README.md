@@ -1,16 +1,7 @@
-CodeWorks Vue Starter
-=====================
-This template is designed to help get students started building vue applications
+    Overview: porfolio-2024 is a working site designed to provide a working portfolio of my best work completed so far. It is not intended to be used in any other way.
 
-## Legal Overview
+    It's primarily written in Javascript, HTML, CSS, Vue.js, and Bootstrap.
 
-The content under the CodeWorks®, LLC Organization and all of the individual repos are solely intended for use by CodeWorks Instruction to deliver Educational content to CodeWorks Students.
+    Live view of the site can be found at http://www.annehunt.dev.
 
----
-
-## Copyright
-
-© CodeWorks® LLC, 2021. Unauthorized use and/or duplication of this material without express and written permission from CodeWorks, LLC is strictly prohibited.
-
-
-<img src="https://bcw.blob.core.windows.net/public/img/7815839041305055" width="125">
+    License: This is private work and not to be used for public purposes.
