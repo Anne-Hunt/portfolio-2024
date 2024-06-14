@@ -4,6 +4,6 @@ services:
     image: raccoonsynthesizer/annehunt:latest
     restart: unless-stopped
     env_file:
-      - annehunt-env
+      - portfolio-2024-env
     ports:
       - "3001:3000"
