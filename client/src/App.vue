@@ -6,6 +6,9 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
+  <header>
+    <Navbar></Navbar>
+  </header>
     <main class="bg bg-pan-left">
       <router-view />
     </main>

@@ -18,7 +18,7 @@ function toggleTheme() {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark shadow px-3">
+  <nav class="navbar navbar-expand-sm navbar-dark shadow px-3 bg">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center text-light"><strong>HOME</strong>
       </div>
@@ -40,18 +40,37 @@ function toggleTheme() {
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Work' }" class="btn text-light lighten-30 selectable text-uppercase">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light lighten-30 selectable text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <strong>WORK</strong>
-          </router-link>
+          </a>
+          <ul class="dropdown-menu p-2">
+            <li><strong>Personal Projects</strong></li>
+            <li><a class="dropdown-item" href="https://keepr.annehunt.dev">Keepr</a></li>
+            <li><a class="dropdown-item" href="https://allspice.annehunt.dev">AllSpice</a></li>
+            <li><a href="https://swarm.annehunt.dev" class="dropdown-item">Swarm</a></li>
+            <li><a href="https://jotnotes.annehunt.dev" class="dropdown-item">Jot Notes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><strong>Team Projects</strong></li>
+            <li><a href="https://www.spuditions.com" class="dropdown-item">Spuditions</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+              <strong>Fun Projects</strong>
+            </li>
+            <li><router-link :to="{ name: 'Work' }" class="btn selectable">Playground
+              </router-link></li>
+          </ul>
         </li>
       </ul>
+      
       <!-- LOGIN COMPONENT HERE -->
-      <div>
+      <!-- <div>
         <button class="btn text-light" @click="toggleTheme"
           :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
           <i class="mdi" :class="theme == 'light' ? 'mdi-lightbulb-on' : 'mdi-lightbulb-outline'"></i>
         </button>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>
@@ -72,6 +91,12 @@ a:hover {
   border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.bg{
+  background-color: black;
+  background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
+  height: auto;
 }
 
 @media screen and (min-width: 576px) {

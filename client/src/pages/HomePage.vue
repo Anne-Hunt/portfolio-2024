@@ -16,8 +16,6 @@ const mixed = computed(()=>{
 </script>
 
 <template>
-  <div class="">
-    <Navbar/>
     <div class="container-flex bg-none">
       <!-- INTRODUCTION -->
       <section class="row text-center bg-none bdy align-items-center p-5 mx-0 justify-content-center">
@@ -102,7 +100,6 @@ const mixed = computed(()=>{
       <!-- CONTACT -->
       <Contact/>
     </div>
-  </div>
 </template>
 
 <style scoped lang="scss">
