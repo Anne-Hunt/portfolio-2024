@@ -96,7 +96,7 @@ const mixed = computed(()=>{
       <!-- PORTFOLIO  -->
       <Portfolio/>
       <!-- RESUME -->
-      <Resume/>
+      <Skills/>
       <!-- CONTACT -->
       <Contact/>
     </div>
