@@ -9,7 +9,7 @@ import Navbar from './components/Navbar.vue'
   <header>
     <Navbar></Navbar>
   </header>
-    <main class="bg bg-pan-left">
+    <main class="bg">
       <router-view />
     </main>
 </template>
@@ -49,10 +49,4 @@ import Navbar from './components/Navbar.vue'
   }
 }
 
-
-footer {
-  display: grid;
-  place-content: center;
-  height: 32px;
-}
 </style>

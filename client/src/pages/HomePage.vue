@@ -16,57 +16,10 @@ const mixed = computed(()=>{
 </script>
 
 <template>
-    <div class="container-flex bg-none">
-      <div class="row"></div>
+    <div class="container-fluid p-0 bg-none">
+      <div class="row spacer bg-page m-0"></div>
       <!-- INTRODUCTION -->
-      <section class="row m-0 p-0 align-items-center screen">
-        <div class="col-4 bg-page text-center py-4">
-            <h1 class="text-center">Anne Hunt</h1>
-            <div class="row justify-content-center">
-              <img src="../assets/img/3dheadshot.png" alt="" class="head align-center">
-            </div>
-            <p class="text-center">now available in 3D</p>
-          </div>
-          <div class="col-8 p-0 py-4">
-            <div class="row p-2 m-0">
-              <div class="col text-focus-in second fs-2 text-success p-2">Vue.js </div>
-              <div class="col text-nowrap text-focus-in third fs-2 text-warning p-2">critical thinking </div>
-              <div class="col text-focus-in fourth fs-2 text-success p-2">HTML </div>
-              <div class="col p-2">
-                <h2 class="text-focus-in p-0">developer </h2>
-              </div>
-              <div class="col text-focus-in fs-2 text-warning p-2">integrity </div>
-              <div class="col text-focus-in second fs-2 text-success p-2">Javascript </div>
-              <div class="col text-focus-in fourth fs-2 text-info p-2">coding </div>
-              <div class="col text-focus-in third fs-2 text-warning p-2">versatile </div>
-              <div class="col fs-2 text-focus-in second p-2"><h2>creator</h2></div>
-              <div class="col text-focus-in fourth fs-2 text-success p-2">MongoDB </div>
-              <div class="col text-focus-in fs-2 text-warning p-2">progress </div>
-              <div class="col text-focus-in third fs-2 text-success p-2">C# </div>
-              <div class="col text-focus-in second fs-2 text-info p-2">testing </div>
-              <div class="col p-3">
-                <h2 class="text-focus-in text-nowrap third p-2">problem-solver </h2>
-              </div>
-              <div class="col text-focus-in fs-2 text-success p-2">.NET </div>
-              <div class="col text-focus-in second fs-2 text-info p-2">design </div>
-              <div class="col text-focus-in fourth fs-2 text-warning p-2">creativity </div>
-              <div class="col text-focus-in fs-2 text-success p-2">CSS </div>
-              <div class="col p-2">
-                <h2 class="text-nowrap text-focus-in fourth p-0">full stack </h2>
-              </div>
-              <div class="col text-focus-in third fs-2 text-info p-2">logic </div>
-              <div class="col text-focus-in fs-2 text-warning p-2">writing </div>
-              <div class="col text-focus-in text-nowrap fourth fs-2 text-info p-2">always learning </div>
-              <div class="col text-focus-in second fs-2 text-success p-2">SQL </div>
-              <div class="col text-focus-in fs-2 text-success p-2">pivot tables </div>
-              <div class="col p-2">
-                <h2 class="text-nowrap text-focus-in fourth p-0">data management</h2>
-              </div>
-              <div class="col text-focus-in third fs-2 text-info p-2">RESTful API</div>
-              <div class="col text-focus-in fs-2 text-warning p-2">Express</div>
-            </div>
-          </div>
-        </section>
+      <Landing/>
       <!--SHOW OFF-->
       <!-- FEATURED PROJECT -->
       <FeaturedProject/>
@@ -87,8 +40,8 @@ h1, h2, h3, h4, h5{
   font-weight: 700;
   font-style: normal;
 }
-.match{
-  height: 100dvh;
+.spacer{
+  height: 10dvh;
 }
 
 .head{
@@ -311,21 +264,6 @@ h1, h2, h3, h4, h5{
   }
 }
 
-.codeworks{
-  color: rgb(48,164,218);
-}
-
-.uwm{
-  color: rgb(255, 194, 47);
-}
-
-.uwyo{
-  color: rgb(73, 47, 37);
-}
-
-.bhsu{
-  color: rgb(0, 98, 54)
-}
 
 .bg{
   background-color: black;
@@ -370,18 +308,6 @@ h1, h2, h3, h4, h5{
   width: 30dvh;
   object-fit: cover;
   object-position: center;
-}
-
-.ukey1{
-  min-width: 6%;
-}
-
-.ukey15{
-  min-width: 10%;
-}
-
-.ukey2{
-  min-width: 13.32%;
 }
 
 
