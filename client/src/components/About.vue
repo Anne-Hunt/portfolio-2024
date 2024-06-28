@@ -9,7 +9,7 @@
         <h2>About Me</h2>
         <div class="col-12 order-md-1 order-2">
           <p>
-            If I have learned anything in my life, it's how to learn. I'm particularly gifted especially when it comes to language, whether coding or human communication, as I proved in my coding bootcamp and when I almost completed an entire bachelor's in Spanish in a year. I love solving problems and creating simple, elegant solutions that incorporate the future plans for applications and aren't just a bandaid on the issue at hand. Creating is what I do - whether I'm knitting a sweater or making an app.
+            If I have learned anything in my life, it's how to learn. I'm particularly gifted when it comes to language, whether coding or human communication, as I demonstrated in my coding bootcamp and nearly completing a bachelor's in Spanish in a year. I love solving problems and creating simple, elegant solutions that consider future application plans, not just quick fixes. Creating is what I do—whether I'm knitting a sweater or developing an app.
           </p>
           <div class="row justify-content-center">
             <div class="col-md-4 col-12">

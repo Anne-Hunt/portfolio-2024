@@ -20,43 +20,47 @@ const mixed = computed(()=>{
       <!-- INTRODUCTION -->
       <section class="row text-center bg-none bdy align-items-center p-5 mx-0 justify-content-center">
         <div class="bg-none col-8">
-          <h1 class="text-center">Anne Hunt</h1>
-          <img src="../assets/img/3dheadshot.png" alt="" class="head">
         </div>
-        </section>
-        <section class="row m-0 p-0 screen">
-          <div class="col-1 p-0 m-0"></div>
-          <div class="col-10 p-0">
-            <div class="row p-0 m-0">
-              <div class="col text-focus-in second fs-2 text-success p-0">Vue.js</div>
-              <div class="col text-nowrap text-focus-in third fs-2 text-warning p-0">critical thinking</div>
-              <div class="col text-focus-in fourth fs-2 text-success p-0">HTML</div>
-              <div class="col p-0">
-                <h2 class="text-focus-in p-0">developer</h2>
+      </section>
+      <section class="row m-0 p-0 align-items-center">
+        <div class="col-4 bg-page text-center">
+            <h1 class="text-center">Anne Hunt</h1>
+            <div class="row justify-content-center">
+              <img src="../assets/img/3dheadshot.png" alt="" class="head align-center">
+            </div>
+            <p class="text-center">now available in 3D</p>
+          </div>
+          <div class="col-8 p-0 screen">
+            <div class="row pe-2 m-0">
+              <div class="col text-focus-in second fs-2 text-success p-0">Vue.js </div>
+              <div class="col text-nowrap text-focus-in third fs-2 text-warning p-1">critical thinking </div>
+              <div class="col text-focus-in fourth fs-2 text-success p-1">HTML </div>
+              <div class="col p-1">
+                <h2 class="text-focus-in p-0">developer </h2>
               </div>
-              <div class="col text-focus-in fs-2 text-warning p-0">integrity</div>
-              <div class="col text-focus-in second fs-2 text-success p-0">Javascript</div>
-              <div class="col text-focus-in fourth fs-2 text-info p-0">coding</div>
-              <div class="col text-focus-in third fs-2 text-warning p-0">versatile</div>
-              <div class="col fs-2 text-focus-in second p-0">creator</div>
-              <div class="col text-focus-in fourth fs-2 text-success p-0">MongoDB</div>
-              <div class="col text-focus-in fs-2 text-warning p-0">progress</div>
-              <div class="col text-focus-in third fs-2 text-success p-0">C#</div>
-              <div class="col text-focus-in second fs-2 text-info p-0">testing</div>
+              <div class="col text-focus-in fs-2 text-warning p-0">integrity </div>
+              <div class="col text-focus-in second fs-2 text-success p-0">Javascript </div>
+              <div class="col text-focus-in fourth fs-2 text-info p-0">coding </div>
+              <div class="col text-focus-in third fs-2 text-warning p-0">versatile </div>
+              <div class="col fs-2 text-focus-in second p-0">creator </div>
+              <div class="col text-focus-in fourth fs-2 text-success p-0">MongoDB </div>
+              <div class="col text-focus-in fs-2 text-warning p-0">progress </div>
+              <div class="col text-focus-in third fs-2 text-success p-0">C# </div>
+              <div class="col text-focus-in second fs-2 text-info p-0">testing </div>
               <div class="col p-0">
-                <h2 class="text-focus-in text-nowrap third p-0">problem-solver</h2>
+                <h2 class="text-focus-in text-nowrap third p-0">problem-solver </h2>
               </div>
-              <div class="col text-focus-in fs-2 text-success p-0">.NET</div>
-              <div class="col text-focus-in second fs-2 text-info p-0">design</div>
-              <div class="col text-focus-in fourth fs-2 text-warning p-0">creativity</div>
-              <div class="col text-focus-in fs-2 text-success p-0">CSS</div>
+              <div class="col text-focus-in fs-2 text-success p-0">.NET </div>
+              <div class="col text-focus-in second fs-2 text-info p-0">design </div>
+              <div class="col text-focus-in fourth fs-2 text-warning p-0">creativity </div>
+              <div class="col text-focus-in fs-2 text-success p-0">CSS </div>
               <div class="col p-0">
-                <h2 class="text-nowrap text-focus-in fourth p-0">full stack</h2>
+                <h2 class="text-nowrap text-focus-in fourth p-0">full stack </h2>
               </div>
-              <div class="col text-focus-in third fs-2 text-info p-0">logic</div>
-              <div class="col text-focus-in fs-2 text-warning p-0">writing</div>
-              <div class="col text-focus-in text-nowrap fourth fs-2 text-info p-0">always learning</div>
-              <div class="col text-focus-in second fs-2 text-success p-0">SQL</div>
+              <div class="col text-focus-in third fs-2 text-info p-0">logic </div>
+              <div class="col text-focus-in fs-2 text-warning p-0">writing </div>
+              <div class="col text-focus-in text-nowrap fourth fs-2 text-info p-0">always learning </div>
+              <div class="col text-focus-in second fs-2 text-success p-0">SQL </div>
             </div>
           </div>
           <div class="col-1 p-0 m-0"></div>

@@ -48,7 +48,7 @@
        <h4 class="text-center m-0 bg-page p-3">OTHER SKILLS</h4>
        <div class="row bg-page px-2">
          <div class="col">
-           <span>Interdisciplinary</span>
+           <strong>Interdisciplinary</strong>
            <ul>
              <li>Agile/Scrum</li>
              <li>Market-based pricing</li>
@@ -60,7 +60,7 @@
            </ul>
          </div>
         <div class="col">
-          <span>Academic</span>
+          <strong>Academic</strong>
           <ul>
             <li>Institutional Review Board ethics</li>
             <li>Technical writing</li>
@@ -71,7 +71,7 @@
           </ul>
         </div>
         <div class="col">
-          <span>Management</span>
+          <strong>Management</strong>
           <ul>
             <li>Project management</li>
             <li>Prioritizing KPIs</li>
@@ -82,7 +82,7 @@
           </ul>
         </div>
         <div class="col">
-          <span>Marketing</span>
+          <strong>Marketing</strong>
           <ul>
             <li>SEO</li>
             <li>Marketing Integrations</li>
