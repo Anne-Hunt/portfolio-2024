@@ -77,7 +77,7 @@ function toggleTheme() {
 
 <style scoped>
 nav{
-  background-image: url(src/assets/img/cubes.png);
+  background-image: url(../assets/img/cubes.png);
 }
 a:hover {
   text-decoration: none;
@@ -91,12 +91,6 @@ a:hover {
   border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-}
-
-.bg{
-  background-color: black;
-  background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
-  height: auto;
 }
 
 @media screen and (min-width: 576px) {
