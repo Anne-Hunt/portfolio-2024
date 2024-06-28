@@ -20,7 +20,7 @@ function toggleTheme() {
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark shadow px-3 bg">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center text-light"><strong>HOME</strong>
+      <div class="d-flex flex-column align-items-center text-light ps-5"><strong>HOME</strong>
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -46,7 +46,7 @@ function toggleTheme() {
             <strong>WORK</strong>
           </a>
           <ul class="dropdown-menu p-2">
-            <li><strong>Personal Projects</strong></li>
+            <li><strong>Solo Projects</strong></li>
             <li><a class="dropdown-item" href="https://keepr.annehunt.dev">Keepr</a></li>
             <li><a class="dropdown-item" href="https://allspice.annehunt.dev">AllSpice</a></li>
             <li><a href="https://swarm.annehunt.dev" class="dropdown-item">Swarm</a></li>
@@ -54,12 +54,12 @@ function toggleTheme() {
             <li><hr class="dropdown-divider"></li>
             <li><strong>Team Projects</strong></li>
             <li><a href="https://www.spuditions.com" class="dropdown-item">Spuditions</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <!-- <li><hr class="dropdown-divider"></li>
             <li>
               <strong>Fun Projects</strong>
             </li>
             <li><router-link :to="{ name: 'Work' }" class="btn selectable">Playground
-              </router-link></li>
+              </router-link></li> -->
           </ul>
         </li>
       </ul>

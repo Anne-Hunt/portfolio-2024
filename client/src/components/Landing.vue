@@ -69,6 +69,10 @@
   transform: translate(-50%, -50%);
 }
 
+p{
+    font-weight: bold;
+}
+
 .head{
     max-height: 45dvh;
   object-fit: contain;
