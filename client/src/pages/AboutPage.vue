@@ -4,8 +4,8 @@
 
 <template>
 <section class="row p-3 bg-light">
-      <h1>About Anne Hunt</h1>
-      <div class="col">
+    <div class="col">
+          <h1>About Anne Hunt</h1>
 
       </div>
     <div class="col p-3">
