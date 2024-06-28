@@ -18,9 +18,9 @@ function toggleTheme() {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark shadow px-3">
+  <nav class="navbar navbar-expand-sm navbar-dark shadow px-3 bg">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center text-light"><strong>HOME</strong>
+      <div class="d-flex flex-column align-items-center text-light ps-5"><strong>HOME</strong>
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -40,25 +40,44 @@ function toggleTheme() {
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'Work' }" class="btn text-light lighten-30 selectable text-uppercase">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light lighten-30 selectable text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <strong>WORK</strong>
-          </router-link>
+          </a>
+          <ul class="dropdown-menu p-2">
+            <li><strong>Solo Projects</strong></li>
+            <li><a class="dropdown-item" href="https://keepr.annehunt.dev">Keepr</a></li>
+            <li><a class="dropdown-item" href="https://allspice.annehunt.dev">AllSpice</a></li>
+            <li><a href="https://swarm.annehunt.dev" class="dropdown-item">Swarm</a></li>
+            <li><a href="https://jotnotes.annehunt.dev" class="dropdown-item">Jot Notes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><strong>Team Projects</strong></li>
+            <li><a href="https://www.spuditions.com" class="dropdown-item">Spuditions</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li>
+              <strong>Fun Projects</strong>
+            </li>
+            <li><router-link :to="{ name: 'Work' }" class="btn selectable">Playground
+              </router-link></li> -->
+          </ul>
         </li>
       </ul>
+      
       <!-- LOGIN COMPONENT HERE -->
-      <div>
+      <!-- <div>
         <button class="btn text-light" @click="toggleTheme"
           :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
           <i class="mdi" :class="theme == 'light' ? 'mdi-lightbulb-on' : 'mdi-lightbulb-outline'"></i>
         </button>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>
 
 <style scoped>
 nav{
-  background-image: url(src/assets/img/cubes.png);
+  background-image: url(../assets/img/cubes.png);
 }
 a:hover {
   text-decoration: none;

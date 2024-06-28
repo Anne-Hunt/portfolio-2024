@@ -6,7 +6,10 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-    <main class="bg bg-pan-left">
+  <header>
+    <Navbar></Navbar>
+  </header>
+    <main class="bg">
       <router-view />
     </main>
 </template>
@@ -18,7 +21,13 @@ import Navbar from './components/Navbar.vue'
   --main-height: calc(100vh - 32px - 64px);
 }
 
-.bg{
+header{
+  background-color: black;
+  background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
+  height: auto;
+}
+
+main{
   background-color: black;
   background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
   height: auto;
@@ -46,10 +55,4 @@ import Navbar from './components/Navbar.vue'
   }
 }
 
-
-footer {
-  display: grid;
-  place-content: center;
-  height: 32px;
-}
 </style>

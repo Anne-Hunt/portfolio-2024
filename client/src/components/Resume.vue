@@ -10,7 +10,7 @@
           RESUME
         </h3>
       </div>
-      <h4 class="text-center bg-page m-0 p-3">SKILLS</h4>
+      <h4 class="text-center bg-page m-0 p-3"> PROGRAMMING SKILLS</h4>
        <div class="row screen py-2 px-5 justify-content-center text-center">
         <div class="text-center col">
           <i class="mdi mdi-dot-net fs-1"></i>
@@ -43,7 +43,56 @@
         <div class="text-center col">
           <i class="mdi mdi-vuejs fs-1"></i>
           <p>Vue.js</p>
-        </div>         
+        </div>
+       </div>
+       <h4 class="text-center m-0 bg-page p-3">OTHER SKILLS</h4>
+       <div class="row bg-page px-2">
+         <div class="col">
+           <strong>Interdisciplinary</strong>
+           <ul>
+             <li>Agile/Scrum</li>
+             <li>Market-based pricing</li>
+             <li>Database accuracy</li>
+             <li>Excel and pivot tables</li>
+             <li>Performance tracking</li>
+             <li>Developing goals</li>
+             <li>Stakeholder engagement</li>
+           </ul>
+         </div>
+        <div class="col">
+          <strong>Academic</strong>
+          <ul>
+            <li>Institutional Review Board ethics</li>
+            <li>Technical writing</li>
+            <li>Research</li>
+            <li>Documentation</li>
+            <li>Teaching</li>
+            <li>Public speaking</li>
+          </ul>
+        </div>
+        <div class="col">
+          <strong>Management</strong>
+          <ul>
+            <li>Project management</li>
+            <li>Prioritizing KPIs</li>
+            <li>Training</li>
+            <li>Interpersonal Communication</li>
+            <li>Hiring</li>
+            <li>eBay/CRM Database Integration</li>
+          </ul>
+        </div>
+        <div class="col">
+          <strong>Marketing</strong>
+          <ul>
+            <li>SEO</li>
+            <li>Marketing Integrations</li>
+            <li>Campaign Lifecycles</li>
+            <li>Content Creation</li>
+            <li>Conference Presentations</li>
+            <li>Reputation Management</li>
+            <li>Event Coordination</li>
+          </ul>
+        </div>
        </div>
        <h4 class="text-center m-0 bg-page p-3">WORK</h4>
        <div class="row justify-content-center text-start m-0 p-0">
