@@ -45,6 +45,7 @@
                 <p class="fs-4">always learning</p>
                 <p class="fs-4">process analysis</p>
             </div>
+            <div class="col-1"></div>
             <p class="text-center fs-1">now available in 3D</p>
         </div>
     </div>
@@ -63,8 +64,9 @@
 .overlay{
   position: absolute;
   z-index: 1;
-  top: 30%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .head{
