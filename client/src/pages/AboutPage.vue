@@ -1,5 +1,4 @@
 <script setup>
-import headshot from '../assets/img/dotsheadshot.png';
 
 </script>
 
@@ -13,7 +12,7 @@ import headshot from '../assets/img/dotsheadshot.png';
     <div class="col p-0">
       <div class="row">
         <div class="col-12 p-0 m-0 d-flex justify-content-center">
-          <img :src="headshot" alt="Face of Anne Hunt">
+          <img src="https://imgur.com/a/JU8kaKD" alt="Face of Anne Hunt">
         </div>
         <div class="col-12 text-center p-0 m-0">
           <h3>A face you can trust!</h3>
