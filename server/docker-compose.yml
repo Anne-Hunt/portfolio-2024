@@ -4,4 +4,4 @@ services:
     image: raccoonsynthesizer/annehunt:latest
     restart: unless-stopped
     ports:
-      - "3001:3000"
+      - "3000:3000"
