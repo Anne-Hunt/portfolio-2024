@@ -53,12 +53,16 @@
 <section class="row overlay">
         <img src="../assets/img/3dheadshot.png" alt="" class="head p-0">
 </section>
+<div class="row spacer bg-page m-0"></div>
 </template>
 
 
 <style lang="scss" scoped>
 .match{
     height: 65dvh;
+}
+.spacer{
+  height: 10dvh;
 }
 
 .overlay{
