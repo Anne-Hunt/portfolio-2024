@@ -46,7 +46,7 @@
                 <p class="fs-4">process analysis</p>
             </div>
             <div class="col-1"></div>
-            <p class="text-center fs-1">now available in 3D</p>
+            <p class="text-center fs-3">Now available in 3D!!!</p>
         </div>
     </div>
 </section>
