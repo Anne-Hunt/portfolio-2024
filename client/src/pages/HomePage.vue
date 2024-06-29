@@ -21,7 +21,7 @@ const mixed = computed(()=>{
       <!-- INTRODUCTION -->
       <Landing/>
       <!--SHOW OFF-->
-      <div class="row spacer bg-page m-0"></div>
+      
       <!-- FEATURED PROJECT -->
       <FeaturedProject/>
       <!-- ABOUT ME -->
