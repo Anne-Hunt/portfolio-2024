@@ -59,7 +59,7 @@
 
 <style lang="scss" scoped>
 .match{
-    height: 65dvh;
+    height: 75dvh;
 }
 .spacer{
   height: 10dvh;
