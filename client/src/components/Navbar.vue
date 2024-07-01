@@ -50,7 +50,7 @@ function toggleTheme() {
             <li><a class="dropdown-item" href="https://keepr.annehunt.dev">Keepr</a></li>
             <li><a class="dropdown-item" href="https://allspice.annehunt.dev">AllSpice</a></li>
             <li><a href="https://swarm.annehunt.dev" class="dropdown-item">Swarm</a></li>
-            <li><a href="https://jotnotes.annehunt.dev" class="dropdown-item">Jot Notes</a></li>
+            <!-- <li><a href="https://jotnotes.annehunt.dev" class="dropdown-item">Jot Notes</a></li> -->
             <li><hr class="dropdown-divider"></li>
             <li><strong>Team Projects</strong></li>
             <li><a href="https://www.spuditions.com" class="dropdown-item">Spuditions</a></li>

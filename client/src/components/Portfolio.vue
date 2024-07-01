@@ -49,8 +49,16 @@
             <h5 class="opacity-100 text-white">
               Jot Notes
             </h5>
-            <p class="opacity-100 text-white">Create, edit, and organize notes with Jot. Choose colors, tags, or notebooks for sorting your content and make it private or public. Jot uses Express Node.js, MongoDB, Auth0, Javascript, Vue.js, Bootstrap 5, HTML, CSS, mobile design, MVC, and RESTful API design.</p>
-            <p class="opacity-100 text-white text-end m-0">see the code <a href="https://github.com/Anne-Hunt/jot-notes"><i class="mdi mdi-code-block-tags"></i></a> or live site <a href="https://jotnotes.annehunt.dev"><i class="mdi mdi-application-brackets-outline"></i></a></p>
+            <p class="opacity-100 text-white">COMING SOON! Create, edit, and organize notes with Jot. Choose colors, tags, or notebooks for sorting your content and make it private or public. Jot uses Express Node.js, MongoDB, Auth0, Javascript, Vue.js, Bootstrap 5, HTML, CSS, mobile design, MVC, and RESTful API design.</p>
+            <p class="opacity-100 text-white text-end m-0">see the code 
+              <!-- <a href="https://github.com/Anne-Hunt/jot-notes"> -->
+                <i class="mdi mdi-code-block-tags"></i>
+              <!-- </a>  -->
+              or live site 
+              <!-- <a href="https://jotnotes.annehunt.dev"> -->
+                <i class="mdi mdi-application-brackets-outline"></i>
+              <!-- </a> -->
+            </p>
           </div>
           </div>
         </div>
