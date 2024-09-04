@@ -17,10 +17,10 @@
               <ul>
                 <li>HTML/CSS</li>
                 <li>Javascript</li>
-                <li>Boostrap 5</li>
-                <li>Vue.js 3</li>
+                <li>Boostrap 5 & Tailwind</li>
+                <li>Vue.js 3 & React</li>
                 <li>C#</li>
-                <li>.NET CORE</li>
+                <li>Node.js & .NET CORE</li>
               </ul>
             </div>
             <div class="col-md-4 col-12">
