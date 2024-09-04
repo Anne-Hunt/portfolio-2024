@@ -21,7 +21,7 @@
             <div class="col-3 text-start text-danger text-focus-in third p-0">
                 <p class="fs-4">Javascript</p>
                 <p class="fs-4">full stack</p>
-                <p class="fs-4">progress</p>
+                <p class="fs-4">logic</p>
                 <p class="fs-4">MongoDB</p>
                 <p class="fs-4">Express</p>
                 <p class="fs-4">pivot tables</p>
@@ -32,7 +32,7 @@
                 <p class="fs-4">SQL</p>
                 <p class="fs-4">.NET</p>
                 <p class="fs-4">HTML</p>
-                <p class="fs-4">logic</p>
+                <p class="fs-4">React</p>
                 <p class="fs-4">CSS</p>
                 <p class="fs-4">Vue.js</p>
             </div>
