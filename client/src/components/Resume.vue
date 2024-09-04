@@ -44,6 +44,14 @@
           <i class="mdi mdi-vuejs fs-1"></i>
           <p>Vue.js</p>
         </div>
+        <div class="text-center col">
+          <i class="mdi mdi-react fs-1"></i>
+          <p>React</p>
+        </div>
+        <div class="text-center col">
+          <i class="mdi mdi-tailwind fs-1"></i>
+          <p>Tailwind CSS</p>
+        </div>
        </div>
        <h4 class="text-center m-0 bg-page p-3">OTHER SKILLS</h4>
        <div class="row bg-page px-2">
@@ -51,23 +59,25 @@
            <strong>Interdisciplinary</strong>
            <ul>
              <li>Agile/Scrum</li>
-             <li>Market-based pricing</li>
-             <li>Database accuracy</li>
-             <li>Excel and pivot tables</li>
-             <li>Performance tracking</li>
-             <li>Developing goals</li>
-             <li>Stakeholder engagement</li>
+             <li>Market-based Pricing</li>
+             <li>Database Accuracy</li>
+             <li>Data Analysis</li>
+             <li>Excel and Pivot Tables</li>
+             <li>Performance Tracking</li>
+             <li>Developing Goals</li>
+             <li>Stakeholder Engagement</li>
            </ul>
          </div>
         <div class="col">
           <strong>Academic</strong>
           <ul>
             <li>Institutional Review Board ethics</li>
-            <li>Technical writing</li>
+            <li>Technical Writing</li>
             <li>Research</li>
             <li>Documentation</li>
             <li>Teaching</li>
-            <li>Public speaking</li>
+            <li>Public Speaking</li>
+            <li>Presentations</li>
           </ul>
         </div>
         <div class="col">
@@ -91,6 +101,7 @@
             <li>Conference Presentations</li>
             <li>Reputation Management</li>
             <li>Event Coordination</li>
+            <li>Business Analysis</li>
           </ul>
         </div>
        </div>

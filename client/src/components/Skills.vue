@@ -43,7 +43,15 @@
         <div class="text-center col">
           <i class="mdi mdi-vuejs fs-1"></i>
           <p>Vue.js</p>
-        </div>         
+        </div>
+        <div class="text-center col">
+          <i class="mdi mdi-react fs-1"></i>
+          <p>React</p>
+        </div>
+        <div class="text-center col">
+          <i class="mdi mdi-tailwind fs-1"></i>
+          <p>Tailwind CSS</p>
+        </div>
        </div>
       </section>
 </template>
