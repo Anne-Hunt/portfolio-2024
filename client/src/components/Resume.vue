@@ -108,7 +108,11 @@
        <h4 class="text-center m-0 bg-page p-3">WORK</h4>
        <div class="row justify-content-center text-start m-0 p-0">
           <div class="row screen m-0">
-            <h5 class="px-5">Full Stack Web Developer</h5>
+            <h5 class="px-5">Web Development</h5>
+          </div>
+          <div class="row m-0 bg-page px-5">
+            <p><strong>ELCA (Evangelical Lutheran Church in America)</strong></p>
+            <p class="px-5">Provided web development services for several associated websites and front end development for email campaigns belonging to the churchwide organization on several different platforms/services.</p>
           </div>
           <div class="row m-0 bg-page px-5">
             <p><strong>Boise CodeWorks</strong></p>
