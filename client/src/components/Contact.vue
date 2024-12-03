@@ -7,7 +7,7 @@
       <section class="row screen bg-none justify-content-center mx-0">
         <div class="p-2">
           <h3 class="text-center">
-          CONTACT ME
+          CONTACT ME!
         </h3>
       </div>
        <div class="row py-3 justify-content-center">
