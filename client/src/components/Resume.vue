@@ -102,6 +102,7 @@
             <li>Reputation Management</li>
             <li>Event Coordination</li>
             <li>Business Analysis</li>
+            <li>Email & Social Media Campaigns</li>
           </ul>
         </div>
        </div>
